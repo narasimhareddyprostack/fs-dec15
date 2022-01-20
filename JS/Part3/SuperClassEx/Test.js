@@ -12,7 +12,7 @@ class Child extends Parent {
         console.log("Child - class : Const")
     }
     getAddress() {
-        console.log("Child Class - GetAddress method")
+        console.log("Child Class - GetAddress method");
     }
 }
 let c1 = new Child()
