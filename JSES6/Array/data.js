@@ -1000,4 +1000,4 @@ let employees = [{ "id": 1, "first_name": "Murielle", "last_name": "Dufton", "em
 { "id": 1000, "first_name": "Sherlocke", "last_name": "Hellyar", "email": "shellyarrr@intel.com", "gender": "Female", "city": "Togu" }]
 
 let email_id = employees.map((emp) => { return emp.email.toLocaleUpperCase() })
-console.log(email_id)
+console.log(email_id);
